@@ -1,0 +1,13 @@
+{
+  "name": "inboxed",
+  "description": "Inboxed: find out if your email lands in the inbox, and get the exact fix. Read-only SPF, DKIM, DMARC, blocklist and domain-age checks, an inbox score out of 100, records to paste, a copy spam check, header reading and a safe warm-up plan.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Pilotree",
+    "url": "https://pilotree.ai"
+  },
+  "keywords": ["deliverability", "cold-email", "spf", "dkim", "dmarc", "outbound", "email"],
+  "license": "MIT",
+  "homepage": "https://github.com/Pilotree-ai/inboxed",
+  "repository": "https://github.com/Pilotree-ai/inboxed"
+}
