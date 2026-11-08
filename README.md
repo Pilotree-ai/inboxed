@@ -33,6 +33,19 @@ It's read-only. It looks up public DNS and reads what you paste. It never sends 
 
 ---
 
+## Install
+
+```
+/plugin marketplace add Pilotree-ai/inboxed
+/plugin install inboxed@inboxed
+```
+
+The skill shows up as `inboxed:deliverability`. You don't need to call it by name: just ask about your email.
+
+**Needs:** Claude Code, and `dig` and `curl`, which come with macOS and most Linux systems. No accounts, no API keys.
+
+---
+
 ## Why it exists
 
 Your emails go to spam and nobody tells you why.
@@ -66,19 +79,6 @@ Inboxed does the checking in seconds and gives you the exact records to paste. Y
      │              really pass, and do they line up with your From address?        optional
      └─ Volume      How many emails a day each mailbox can safely send, week by week optional
 ```
-
----
-
-## Install
-
-```
-/plugin marketplace add Pilotree-ai/inboxed
-/plugin install inboxed@inboxed
-```
-
-The skill shows up as `inboxed:deliverability`. You don't need to call it by name: just ask about your email.
-
-**Needs:** Claude Code, and `dig` and `curl`, which come with macOS and most Linux systems. No accounts, no API keys.
 
 ---
 
